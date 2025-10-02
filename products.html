@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RK Tech Trading</title>
+    <script src="action.js" defer></script>
+    <link rel="stylesheet" href="products.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="logo">
+        <img src="Images/logo.jpg" alt="RK Tech Trading Logo" />
+        RK TECH TRADING
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="services.html">Services</a></li>
+      </ul>
+      <a href="#" class="btn-quote">Get Quote</a>
+    </nav>
+ 
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Our <span>Products</span></h1>
+        <p>
+          Discover our portfolio of sustainable architecture that harmonizes
+          with nature while meeting modern living needs
+        </p>
+        <div class="stats">
+          <div class="stat">
+            <h2>50+</h2>
+            <p>Completed Projects</p>
+          </div>
+          <div class="stat">
+            <h2>15</h2>
+            <p>Countries</p>
+          </div>
+          <div class="stat">
+            <h2>85%</h2>
+            <p>Energy Savings</p>
+          </div>
+        </div>
+        <div class="scroll-down">↓</div>
+      </div>
+    </section>
+    <section class="category-section">
+      <h2>Explore by <span>Category</span></h2>
+      <p>
+        Filter our projects to see how we apply sustainable principles across
+        different building types
+      </p>
+      <div class="category-buttons">
+        <button class="active">All</button>
+        <button onclick=resedential() >Wiring and Cables </a></button>
+        <button>Switches and Sockets</button>
+ 
+        <button>Lighting</button>
+        <button>Electrical Tools</button>
+        <button>Circuit Protection</button>
+      </div>
+    </section>
+ 
+    <div class="card-container">
+      <div class="card">
+        <img src="Products/1a1 (7).jpg" alt="EcoTower" />
+ 
+        <span class="year">2023</span>
+        <div class="card-content">
+          <h3>Switches and Sockets</h3>
+          <p>
+            Modular switches and non-modular switches, including dimmer and two-way switches.
+Wall sockets (5A, 6A, 15A, 16A, 25A), USB sockets, smart switches.
+Modular plates and PVC boxes in multiple sizes (3X3, 4X3, 5X3, 8X3, 8X6) for installation 
+          </p>
+          <span class="status">85% Energy Reduction</span>
+        </div>
+      </div>
+ 
+      <div class="card">
+        <img src="Products/1a1 (1).jpg"GreenTech Campus" />
+ 
+        <span class="year">2023</span>
+        <div class="card-content">
+          <h3>Circuit Protection and Switchgear</h3>
+          <p>
+          Miniature circuit breakers (MCB), residual current circuit breakers (RCCB), isolators, fuses and fuse boxes.
+Distribution boxes, TPN and DP boards, voltage stabilizers, surge protectors, electrical timers
+          </p>
+          <span class="status">LEED Platinum</span>
+        </div>
+      </div>
+ 
+      <div class="card">
+        <img src="Products/1a1 (25).jpg" alt="Community Solar Hub" />
+ 
+        <span class="year">2022</span>
+        <div class="card-content">
+          <h3>Tools and Measuring Instruments</h3>
+          <p>
+           Hand tools: pliers, screwdrivers, cutters, wire strippers  Power tools: electric drill, angle grinder, circular saw, rotary tool, heat guns  Measuring devices: multimeters, clamp meters, voltmeters, oscilloscopes, wattmeters, frequency counters 
+          </p>
+          <span class="status">200% Energy Positive</span>
+        </div>
+      </div>
+ 
+      <div class="card">
+        <img src="Products/1a1 (17).jpg" alt="Sustainable School Complex" />
+ 
+        <span class="year">2023</span>
+        <div class="card-content">
+          <h3>Boxes & Enclosures</h3>
+          <p>
+          In electrical engineering and construction, enclosures play a pivotal role in ensuring the safety and functionality of electrical and electronic systems. But what exactly is an enclosure, and why is it so crucial? Let’s dive into the basics, exploring the definition, key features, and various types of enclosures available.
+          </p>
+          <span class="status">Net Zero Energy</span>
+        </div>
+      </div>
+ 
+      <div class="card">
+        <img src="Products/1a1 (12).jpg" alt="Urban Planning" />
+        <span class="tag" style="background-color: #00695c"
+          >Urban Planning</span
+        >
+        <span class="year">2022</span>
+        <div class="card-content">
+          <h3>Extension Board</h3>
+          <p>
+           multiple outlets on one end and comes with an insulated electric wire with a plug at the other end.
+          </p>
+          <span class="status">Sustainable Design</span>
+        </div>
+      </div>
+ 
+      <div class="card">
+        <img src="Products/1a1 (5).jpg" alt="Green Institute" />
+ 
+        <span class="year">2023</span>
+        <div class="card-content">
+          <h3>Wiring and Cables</h3>
+          <p>
+           PVC insulated copper/control wires in various sizes (1.5 sq mm to 16 sq mm) and colors (red, black, green) for single-core and multi-core applications 
+Aluminum service wire, flexible cables, flat submersible cables.
+Coaxial cables (RG6), LAN/Ethernet cables for data and communication systems 
+          </p>
+          <span class="status">Energy Efficient</span>
+        </div>
+      </div>
+ 
+      <div class="card">
+        <img src="Products/1a1 (6).jpg" alt="Solar Apartments" />
+ 
+        <span class="year">2022</span>
+        <div class="card-content">
+          <h3>Lighting and Lamps</h3>
+          <p>
+           LED bulbs (9W, 18W, 20W), LED panels (square and round), LED battens (2–4 feet).
+Tube lights (14W, 28W, 36W), CFL lamps in 8–45W, HPSV lamps (70W–250W) with chokes and ignitors
+          </p>
+          <span class="status">100% Renewable</span>
+        </div>
+      </div>
+ 
+      <div class="card">
+        <img src="Products/1a1 (7).jpg" alt="Sky Garden Towers" />
+        <span class="tag">Residential</span>
+        <span class="year">2025</span>
+        <div class="card-content">
+          <h3>Sky Garden Towers</h3>
+          <p>
+            Luxury high-rise with urban farming terraces and smart energy
+            systems
+          </p>
+          <span class="status">85% Energy Reduction</span>
+        </div>
+      </div>
+    </div>
+ 
+    <footer>
+      <div class="footer-container">
+        <!-- Logo & Description -->
+        <div class="footer-logo">
+          <img src="Images/logo.jpg" alt="Logo" />
+          <h2>RK TECH TRADING</h2>
+          <p>
+            Leading electrical and building materials wholesale supplier in UAE.
+            We provide the best wholesale prices and services, preserving your
+            faith in change with quality products and reliable service.
+          </p>
+          <div class="social-links text-right m-auto ml-sm-auto">
+            <a
+              href="https://www.linkedin.com/in/amal-h-s-73365917a/"
+              class="link"
+              ><i class="ti-linkedin"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/i_am_amalhs?igsh=MXNycjdjeGRkZ3FjaA=="
+              class="link"
+              ><i class="ti-instagram"></i
+            ></a>
+            <a href="javascript:void(0)" class="link"
+              ><i class="ti-instagram"></i
+            ></a>
+            <a href="javascript:void(0)" class="link"
+              ><i class="ti-instagram"></i
+            ></a>
+          </div>
+        </div>
+ 
+        <!-- Navigation -->
+        <div>
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="#">Get Quote</a></li>
+          </ul>
+        </div>
+ 
+        <!-- Products -->
+        <div>
+          <h4>Products</h4>
+          <ul>
+            <li><a href="#">Electrical Cables</a></li>
+            <li><a href="#">Building Materials</a></li>
+            <li><a href="#">Electrical Equipment</a></li>
+            <li><a href="#">Industrial Supplies</a></li>
+          </ul>
+        </div>
+ 
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <h4>Contact Info</h4>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> WH: 1, 34th Street, Near
+            Tasjeel<br />Al Qusais Industrial Area 5<br />Dubai – UAE, P.O.Box:
+            41409
+          </p>
+          <p><i class="fas fa-phone"></i> +971 569869169</p>
+          <p><i class="fas fa-envelope"></i> sales@rktechuae.com</p>
+        </div>
+      </div>
+ 
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <span>2024 RK Tech Trading FZ LLC. All rights reserved.</span>
+      </div>
+    </footer>
+  </body>
+</html>
+ 
+ 
